@@ -1,0 +1,94 @@
+@import url(//db.onlinewebfonts.com/c/315d8cbb2bb3e24f257a56bf3af89fec?family=TT+Firs);
+.terminal__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.terminal {
+  background-color: black;
+  width: 50%;
+  height: 600px;
+  border-radius: 15px;
+}
+.top__bar {
+  display: flex;
+  align-items: center;
+  background-color: #3c373b;
+  border-radius: 15px 15px 0 0;
+  padding: 0 10px;
+  width: 100%;
+}
+.controls__btns {
+  display: flex;
+}
+.close__btn {
+  width: 20px;
+  height: 20px;
+  background-color: #fc5f56;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.minimize__btn {
+  background-color: #f6bd3b;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.bigger__btn {
+  background-color: #00de2e;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.terminal__heder__container {
+  flex: 1;
+}
+.terminal__header {
+  text-align: center;
+  color: #ffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "TT Firs";
+}
+.terminal__command__container {
+  padding: 10px;
+  font-family: "TT Firs";
+}
+.pre {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.terminal__input {
+  color: #ffff;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.command__input {
+  background-color: black;
+  border: none;
+  caret-color: #ffff;
+  flex: 1;
+  color: white;
+  font-family: "TT Firs";
+  font-size: 20px;
+}
+.command__input:focus {
+  outline: none;
+}
