@@ -23,7 +23,13 @@ const About = () => {
         </p>
       </div>
       <div className={styles.img}>
-        <Image src="/img/logo.png" width={700} height={700} />
+        <Image
+          src="/img/aboutme.png"
+          alt="about image"
+          width={700}
+          height={700}
+          style={{ filter: " drop-shadow(2px 2px 5px #646fd4)" }}
+        />
       </div>
     </div>
   );

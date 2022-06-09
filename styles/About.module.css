@@ -1,5 +1,8 @@
 .about__container {
   display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 .about {
   flex: 1;
@@ -10,6 +13,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 2em;
+  color: #646fd4;
 }
 .about h3::before {
   content: "";

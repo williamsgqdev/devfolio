@@ -2,7 +2,6 @@
   font-family: "TT Firs";
   padding: 4rem 0;
   animation: 5s wobble linear;
-  height: calc(100vh - 100px);
 }
 
 .hero p {
