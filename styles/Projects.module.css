@@ -3,7 +3,7 @@
   font-size: 2.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   color: #646fd4;
 }
 .projects h3::before {
@@ -15,15 +15,69 @@
 }
 .project {
   display: flex;
-
   font-family: "Poppins";
   font-size: 0.85rem;
+  margin-bottom: 10em;
+}
+
+.project:nth-child(even) .info {
+  order: 2;
 }
 
 .project .info {
   flex: 1;
+  margin-right: 2em;
+}
+
+.project .info h4 {
+  font-family: "TT Firs";
+  font-size: 2rem;
+  margin-bottom: 0.4em;
+}
+
+.project .info p {
+  line-height: 1.5rem;
+}
+
+.project .info .links {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.project .info .live__link {
+  background-color: white;
+  border: 2px solid #646fd4;
+  padding: 0.5em 2em;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  font-family: "TT Firs";
+  color: #646fd4;
+}
+.project .info .live__link:hover {
+  background-color: #646fd4;
+  color: white;
+  outline: 2px solid #646fd4;
+  outline-offset: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.project .info .repo__link {
+  color: #646fd4;
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+
+.project .info .repo__link:hover {
+  transform: scale(1.3, 1.3);
 }
 
 .project .img {
-  flex: 1;
+  flex: 1.6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 2em;
+}
+.project .img img {
+  width: 100%;
 }
